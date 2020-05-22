@@ -1,2 +1,7 @@
-# project0
-Assignment
+# Project 0
+ProfBook is place where you can find information about people. It's like a database including a lot of profiles that shows visual aspects of person, his/her interests, their friends, nicknames and mostly used phrases. You can also find those person's posts which describes them and their lifestyle. If you are interested in the person's inner life, search it on "ProfBook.com". 
+On the main page you can see logo of the page and people whose profile are already added. You can easily click the person and see needed information about him/her.
+In each profile you can see the picture of person, contact information table, that includes one's adress, telephone number and email, nickname, friends list, that also includes famous people that are favorable of the person. Most commonly used words/phrases are characterestic to that person and it's some like of jokes. Posts are kind of friendly jokes too and some of them are Georgian, because they couldn't be translated into English.
+I prefered this kind of website, because I think it's more entertaining doing things about you and your friends, then share it to them and enjoy togather. It also has better potential after learning JavaScript, because then it may become some kind of social network with accounts. One could have uploaded own image himself and post on his/her timeline on his/her own.
+
+Web Programming with Python and JavaScript

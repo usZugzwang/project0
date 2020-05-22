@@ -1,0 +1,59 @@
+header {
+    background-color: #8aa5ff;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+section {
+    background-color: #b5ccff;
+}
+
+footer {
+    background-color: #8aa5ff;
+    text-align: center;
+}
+
+body {
+    background-color: #8aa5ff;
+}
+
+footer::selection {
+    color: red;
+    background-color: yellow;
+}
+
+#title {
+	color: darkblue;
+}
+
+.people-list {
+	list-style-type: circle;
+}
+
+li:hover {
+    color: white;
+}
+
+img {
+	width: 200px;
+	margin-top: 30px;
+    margin-left: 50px;
+}
+
+img:hover {
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+@media (min-width: 1000px) {
+    h3::before {
+        content: "Search any information about people you are interested in!";
+    }
+}
+
+@media (max-width: 999px) {
+        h3::before {
+            content: "Infromation for all";
+        }
+}

@@ -1,0 +1,53 @@
+$color: #b5b5b5;
+
+body {
+	background-color: $color;
+}
+
+header {
+	background-color: $color;
+}
+
+section {
+	background-color: #dbdbdb;
+}
+
+h2, h3 {
+	text-align: center;
+    color: blue;
+}
+
+img {
+	width: 130px;
+}
+
+img:hover {
+	width: 200px;
+}
+
+.first-column {
+	font-weight: bold;
+	text-align: left;
+}
+
+.contact-info-table {
+	@extend %borderstyle;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+%borderstyle {
+	border: 1px solid black;
+}
+
+td, th {
+	padding: 3px;
+}
+
+.contact-info-rows {
+	@extend %borderstyle;
+}
+
+#posts {
+	color: darkred;
+}

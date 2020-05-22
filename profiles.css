@@ -1,0 +1,37 @@
+body {
+  background-color: #b5b5b5; }
+
+header {
+  background-color: #b5b5b5; }
+
+section {
+  background-color: #dbdbdb; }
+
+h2, h3 {
+  text-align: center;
+  color: blue; }
+
+img {
+  width: 130px; }
+
+img:hover {
+  width: 200px; }
+
+.first-column {
+  font-weight: bold;
+  text-align: left; }
+
+.contact-info-table {
+  text-align: center;
+  border-collapse: collapse; }
+
+.contact-info-table, .contact-info-rows {
+  border: 1px solid black; }
+
+td, th {
+  padding: 3px; }
+
+#posts {
+  color: darkred; }
+
+/*# sourceMappingURL=profiles.css.map */
